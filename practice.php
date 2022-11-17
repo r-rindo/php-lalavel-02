@@ -1,7 +1,6 @@
 <?php
-$name = "rie";
-if ($name == "rie") {
-    echo "私はrieです";
-} else {
-    echo "あなたの名前ではありません";
+$total = 0;
+for ($i = 1; $i <= 1000;$i++) {
+    $total += $i;
 }
+echo $total;
