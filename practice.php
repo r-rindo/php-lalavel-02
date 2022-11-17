@@ -1,6 +1,6 @@
 <?php
-$total = 0;
-for ($i = 1; $i <= 1000;$i++) {
-    $total += $i;
+$fruits = array("melon","lemon","apple","orange","mikan" );
+foreach ($fruits as $fruits) {
+    echo "要素は" . $fruits;
+    echo "\n";
 }
-echo $total;
